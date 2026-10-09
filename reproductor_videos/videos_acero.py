@@ -56,6 +56,78 @@ VIDEOS_INICIALES = [
         "tema": "Conexiones y Uniones",
         "titulo": "Tensión: ¿Conexión Atornillada o Soldada?",
         "url": "http://www.youtube.com/watch?v=z0YUOLoAoXY"
+    },
+    {
+        "id": 7,
+        "tema": "Columnas Tubulares HSS",
+        "titulo": "EstructuraTEC21: ¿Cómo diseño una Columna HSS de Acero?",
+        "url": "http://www.youtube.com/watch?v=9-kt9kVqO38"
+    },
+    {
+        "id": 8,
+        "tema": "Flexo-Compresión y Pandeo",
+        "titulo": "EstructuraTEC21: Paso a paso: Diseño Columna Acero Flexocompresión",
+        "url": "http://www.youtube.com/watch?v=5IsCz63IzoY"
+    },
+    {
+        "id": 9,
+        "tema": "Esbeltez y Pandeo Local",
+        "titulo": "EstructuraTEC21: Clasificación de Perfiles: Compactos, No Compactos y Esbeltos",
+        "url": "http://www.youtube.com/watch?v=4NmNMckXwvU"
+    },
+    {
+        "id": 10,
+        "tema": "Vigas y Cortante",
+        "titulo": "EstructuraTEC21: Resistencia a Cortante en Viga de Acero",
+        "url": "http://www.youtube.com/watch?v=79qvQ-LzIXA"
+    },
+    {
+        "id": 11,
+        "tema": "Conexiones Soldadas",
+        "titulo": "EstructuraTEC21: Simbología de Soldadura en Estructuras de Acero",
+        "url": "http://www.youtube.com/watch?v=uWqC_45rI50"
+    },
+    {
+        "id": 12,
+        "tema": "Armaduras y Cerchas",
+        "titulo": "EstructuraTEC21: ¿Cómo diseño una armadura de acero?",
+        "url": "http://www.youtube.com/watch?v=BSe9th2vfko"
+    },
+    {
+        "id": 13,
+        "tema": "Normativa AISC y Resistencia",
+        "titulo": "EstructuraTEC21: AISC vs NTC: Resistencia a Compresión de Perfiles de Acero",
+        "url": "http://www.youtube.com/watch?v=olibWNAQtrc"
+    },
+    {
+        "id": 14,
+        "tema": "Hojas de Cálculo y Diseño",
+        "titulo": "EstructuraTEC21: Hoja de Cálculo: Diseño por Compresión en Acero",
+        "url": "http://www.youtube.com/watch?v=8fLbeftZyDk"
+    },
+    {
+        "id": 15,
+        "tema": "Vigas y Momento Resistente",
+        "titulo": "EstructuraTEC21: Momento Resistente (MR) en Vigas No Compactas de Acero",
+        "url": "http://www.youtube.com/watch?v=LYI36RjA6fY"
+    },
+    {
+        "id": 16,
+        "tema": "Selección de Secciones",
+        "titulo": "EstructuraTEC21: ¿Qué tipo de sección debo usar en mis vigas de acero?",
+        "url": "http://www.youtube.com/watch?v=Q5i-NBvoqLs"
+    },
+    {
+        "id": 17,
+        "tema": "Análisis Matricial",
+        "titulo": "EstructuraTEC21: Método Matricial de Rigideces: Armadura de Acero",
+        "url": "http://www.youtube.com/watch?v=VfvW9ta07xk"
+    },
+    {
+        "id": 18,
+        "tema": "Diseño Sismorresistente en Acero",
+        "titulo": "Curso EstructuraTEC21: Introducción al Diseño Sismorresistente de Estructuras de Acero",
+        "url": "http://www.youtube.com/watch?v=YmfXdinIGyE"
     }
 ]
 
@@ -348,7 +420,16 @@ def main():
     import argparse
     parser = argparse.ArgumentParser(description="Reproductor de Videos de Diseño de Estructuras de Acero")
     parser.add_argument("--cli", action="store_true", help="Ejecutar en modo consola interactiva (sin GUI)")
+    parser.add_argument("--list", action="store_true", help="Listar todos los videos registrados y salir")
     args = parser.parse_args()
+
+    if args.list:
+        videos = cargar_videos()
+        print(f"\nTotal videos registrados: {len(videos)}\n" + "=" * 75)
+        for v in videos:
+            print(f"[{v.get('id', '?'):>2}] [{v.get('tema', 'General'):<30}] {v.get('titulo', 'Sin título')}")
+        print("=" * 75)
+        return
 
     if args.cli or not os.environ.get("DISPLAY"):
         modo_consola()

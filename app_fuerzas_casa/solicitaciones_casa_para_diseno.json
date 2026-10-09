@@ -1,15 +1,15 @@
 {
-  "fecha_generacion": "2026-10-08 21:06:40",
+  "fecha_generacion": "2026-10-08 22:13:06",
   "combo_origen": "ENV (Envolvente Crítica)",
   "descripcion_proyecto": "Vivienda de 2 Niveles en Ladera (Nivel 1: Nivelación / Nivel 2: Habitable)",
   "elementos_criticos": {
     "columna_nivel1_nivelacion": {
       "nombre": "C4",
       "rol": "Columna Crítica Nivel 1 (Piso de Nivelación en Ladera)",
-      "Pu_kN": 161.67,
-      "Mux_kNm": 10.11,
-      "Muy_kNm": 0.85,
-      "Vu_kN": 6.69,
+      "Pu_kN": 151.18,
+      "Mux_kNm": 14.15,
+      "Muy_kNm": 0.86,
+      "Vu_kN": 9.37,
       "L_m": 3.02,
       "K_recomendado": 1.85,
       "seccion_actual": "A1085-6x6x3-16",
@@ -20,9 +20,9 @@
       "nombre": "C19",
       "rol": "Columna Crítica Nivel 2 (Nivel Habitable)",
       "Pu_kN": 49.55,
-      "Mux_kNm": 9.28,
+      "Mux_kNm": 12.99,
       "Muy_kNm": 0.08,
-      "Vu_kN": 6.18,
+      "Vu_kN": 8.66,
       "L_m": 3.0,
       "K_recomendado": 1.55,
       "seccion_actual": "A1085-4x4x3-16",
@@ -32,10 +32,10 @@
     "viga_nivel1_entrepiso": {
       "nombre": "V0",
       "rol": "Viga Crítica Entrepiso Nivel 1 (Plataforma)",
-      "Mux_kNm": 20.88,
-      "Muy_kNm": 0.8,
-      "Vu_kN": 23.51,
-      "Pu_kN": 14.64,
+      "Mux_kNm": 28.58,
+      "Muy_kNm": 1.12,
+      "Vu_kN": 26.47,
+      "Pu_kN": 20.47,
       "L_m": 3.5,
       "seccion_actual": "A1085-10x6x3-16",
       "explicacion_ingenieril": "Viga principal que soporta la losa de entrepiso y sobrecargas de uso. Diseño gobernado por momento plástico Mp, cortante y control de deflexión."
@@ -43,9 +43,9 @@
     "viga_nivel2_cubierta": {
       "nombre": "V42",
       "rol": "Viga Crítica Cubierta Nivel 2",
-      "Mux_kNm": 0.36,
+      "Mux_kNm": 0.49,
       "Muy_kNm": 0.01,
-      "Vu_kN": 0.37,
+      "Vu_kN": 0.44,
       "Pu_kN": 0.03,
       "L_m": 3.0,
       "seccion_actual": "A1085-4x2x3-16",
@@ -53,11 +53,11 @@
     },
     "zapata_critica": {
       "nodo_apoyo": "N4",
-      "Pu_vertical_kN": 161.67,
-      "Vux_kN": 6.69,
+      "Pu_vertical_kN": 151.18,
+      "Vux_kN": 9.37,
       "Vuz_kN": 0.53,
       "Mux_kNm": 0.76,
-      "Muz_kNm": 10.11,
+      "Muz_kNm": 14.15,
       "explicacion_ingenieril": "Reacción mayorada sobre el pedestal y zapata en ladera. Define el área de la placa base metálica y las dimensiones del concreto de cimentación."
     }
   },
@@ -70,12 +70,12 @@
       "Longitud_m": 1.0,
       "K_sugerido": 1.5,
       "Seccion": "A1085-6x6x3-16",
-      "Pu_kN": 66.4,
+      "Pu_kN": 77.92,
       "Tipo_Axial": "Tensión",
-      "Mu_eje_fuerte_kNm": 16.33,
-      "Mu_eje_debil_kNm": 54.54,
-      "Vu_kN": 96.67,
-      "Combo_Gov": "1.2D - 1.0E + 1.0L"
+      "Mu_eje_fuerte_kNm": 22.17,
+      "Mu_eje_debil_kNm": 75.77,
+      "Vu_kN": 135.0,
+      "Combo_Gov": "B.2.4-5h: 1.2D - 1.4E + 1.0L (B.2.4.2.4)"
     },
     {
       "Columna": "C1",
@@ -85,12 +85,12 @@
       "Longitud_m": 1.0,
       "K_sugerido": 1.5,
       "Seccion": "A1085-6x6x3-16",
-      "Pu_kN": 89.55,
+      "Pu_kN": 85.14,
       "Tipo_Axial": "Tensión",
-      "Mu_eje_fuerte_kNm": 16.35,
-      "Mu_eje_debil_kNm": 2.41,
-      "Vu_kN": 31.61,
-      "Combo_Gov": "1.2D + 1.6L"
+      "Mu_eje_fuerte_kNm": 22.89,
+      "Mu_eje_debil_kNm": 2.37,
+      "Vu_kN": 44.25,
+      "Combo_Gov": "B.2.4-2a: 1.2D + 1.6L + 0.5Lr"
     },
     {
       "Columna": "C2",
@@ -100,12 +100,12 @@
       "Longitud_m": 1.0,
       "K_sugerido": 1.5,
       "Seccion": "A1085-6x6x3-16",
-      "Pu_kN": 66.4,
+      "Pu_kN": 77.92,
       "Tipo_Axial": "Tensión",
-      "Mu_eje_fuerte_kNm": 16.33,
-      "Mu_eje_debil_kNm": 54.54,
-      "Vu_kN": 96.67,
-      "Combo_Gov": "1.2D + 1.0E + 1.0L"
+      "Mu_eje_fuerte_kNm": 22.17,
+      "Mu_eje_debil_kNm": 75.77,
+      "Vu_kN": 135.0,
+      "Combo_Gov": "B.2.4-5g: 1.2D + 1.4E + 1.0L (B.2.4.2.4)"
     },
     {
       "Columna": "C3",
@@ -115,12 +115,12 @@
       "Longitud_m": 3.02,
       "K_sugerido": 1.85,
       "Seccion": "A1085-6x6x3-16",
-      "Pu_kN": 87.0,
+      "Pu_kN": 82.94,
       "Tipo_Axial": "Tensión",
-      "Mu_eje_fuerte_kNm": 10.43,
-      "Mu_eje_debil_kNm": 8.82,
-      "Vu_kN": 6.86,
-      "Combo_Gov": "1.2D + 1.6L"
+      "Mu_eje_fuerte_kNm": 14.08,
+      "Mu_eje_debil_kNm": 11.99,
+      "Vu_kN": 9.29,
+      "Combo_Gov": "B.2.4-2a: 1.2D + 1.6L + 0.5Lr"
     },
     {
       "Columna": "C4",
@@ -130,12 +130,12 @@
       "Longitud_m": 3.02,
       "K_sugerido": 1.85,
       "Seccion": "A1085-6x6x3-16",
-      "Pu_kN": 161.67,
+      "Pu_kN": 151.18,
       "Tipo_Axial": "Tensión",
-      "Mu_eje_fuerte_kNm": 10.11,
-      "Mu_eje_debil_kNm": 0.85,
-      "Vu_kN": 6.69,
-      "Combo_Gov": "1.2D + 1.6L"
+      "Mu_eje_fuerte_kNm": 14.15,
+      "Mu_eje_debil_kNm": 0.86,
+      "Vu_kN": 9.37,
+      "Combo_Gov": "B.2.4-2a: 1.2D + 1.6L + 0.5Lr"
     },
     {
       "Columna": "C5",
@@ -145,12 +145,12 @@
       "Longitud_m": 3.02,
       "K_sugerido": 1.85,
       "Seccion": "A1085-6x6x3-16",
-      "Pu_kN": 87.0,
+      "Pu_kN": 82.94,
       "Tipo_Axial": "Tensión",
-      "Mu_eje_fuerte_kNm": 10.43,
-      "Mu_eje_debil_kNm": 8.82,
-      "Vu_kN": 6.86,
-      "Combo_Gov": "1.2D + 1.6L"
+      "Mu_eje_fuerte_kNm": 14.08,
+      "Mu_eje_debil_kNm": 11.99,
+      "Vu_kN": 9.29,
+      "Combo_Gov": "B.2.4-2a: 1.2D + 1.6L + 0.5Lr"
     },
     {
       "Columna": "C6",
@@ -160,12 +160,12 @@
       "Longitud_m": 5.04,
       "K_sugerido": 1.85,
       "Seccion": "A1085-6x6x3-16",
-      "Pu_kN": 81.19,
+      "Pu_kN": 86.49,
       "Tipo_Axial": "Tensión",
-      "Mu_eje_fuerte_kNm": 6.98,
-      "Mu_eje_debil_kNm": 2.6,
-      "Vu_kN": 2.73,
-      "Combo_Gov": "1.2D - 1.0E + 1.0L"
+      "Mu_eje_fuerte_kNm": 9.34,
+      "Mu_eje_debil_kNm": 3.58,
+      "Vu_kN": 3.7,
+      "Combo_Gov": "B.2.4-5h: 1.2D - 1.4E + 1.0L (B.2.4.2.4)"
     },
     {
       "Columna": "C7",
@@ -175,12 +175,12 @@
       "Longitud_m": 5.04,
       "K_sugerido": 1.85,
       "Seccion": "A1085-6x6x3-16",
-      "Pu_kN": 146.25,
+      "Pu_kN": 136.72,
       "Tipo_Axial": "Tensión",
-      "Mu_eje_fuerte_kNm": 6.56,
-      "Mu_eje_debil_kNm": 0.11,
-      "Vu_kN": 2.59,
-      "Combo_Gov": "1.2D + 1.6L"
+      "Mu_eje_fuerte_kNm": 9.19,
+      "Mu_eje_debil_kNm": 0.12,
+      "Vu_kN": 3.63,
+      "Combo_Gov": "B.2.4-2a: 1.2D + 1.6L + 0.5Lr"
     },
     {
       "Columna": "C8",
@@ -190,12 +190,12 @@
       "Longitud_m": 5.04,
       "K_sugerido": 1.85,
       "Seccion": "A1085-6x6x3-16",
-      "Pu_kN": 81.19,
+      "Pu_kN": 86.49,
       "Tipo_Axial": "Tensión",
-      "Mu_eje_fuerte_kNm": 6.98,
-      "Mu_eje_debil_kNm": 2.6,
-      "Vu_kN": 2.73,
-      "Combo_Gov": "1.2D + 1.0E + 1.0L"
+      "Mu_eje_fuerte_kNm": 9.34,
+      "Mu_eje_debil_kNm": 3.58,
+      "Vu_kN": 3.7,
+      "Combo_Gov": "B.2.4-5g: 1.2D + 1.4E + 1.0L (B.2.4.2.4)"
     },
     {
       "Columna": "C9",
@@ -205,12 +205,12 @@
       "Longitud_m": 7.06,
       "K_sugerido": 1.85,
       "Seccion": "A1085-6x6x3-16",
-      "Pu_kN": 89.59,
+      "Pu_kN": 93.78,
       "Tipo_Axial": "Tensión",
-      "Mu_eje_fuerte_kNm": 5.28,
-      "Mu_eje_debil_kNm": 1.48,
-      "Vu_kN": 1.47,
-      "Combo_Gov": "1.2D + 1.6L"
+      "Mu_eje_fuerte_kNm": 7.05,
+      "Mu_eje_debil_kNm": 2.0,
+      "Vu_kN": 1.98,
+      "Combo_Gov": "B.2.4-5h: 1.2D - 1.4E + 1.0L (B.2.4.2.4)"
     },
     {
       "Columna": "C10",
@@ -220,12 +220,12 @@
       "Longitud_m": 7.06,
       "K_sugerido": 1.85,
       "Seccion": "A1085-6x6x3-16",
-      "Pu_kN": 155.4,
+      "Pu_kN": 145.66,
       "Tipo_Axial": "Tensión",
-      "Mu_eje_fuerte_kNm": 4.87,
+      "Mu_eje_fuerte_kNm": 6.81,
       "Mu_eje_debil_kNm": 0.18,
-      "Vu_kN": 1.37,
-      "Combo_Gov": "1.2D + 1.6L"
+      "Vu_kN": 1.92,
+      "Combo_Gov": "B.2.4-2a: 1.2D + 1.6L + 0.5Lr"
     },
     {
       "Columna": "C11",
@@ -235,12 +235,12 @@
       "Longitud_m": 7.06,
       "K_sugerido": 1.85,
       "Seccion": "A1085-6x6x3-16",
-      "Pu_kN": 89.59,
+      "Pu_kN": 93.78,
       "Tipo_Axial": "Tensión",
-      "Mu_eje_fuerte_kNm": 5.28,
-      "Mu_eje_debil_kNm": 1.48,
-      "Vu_kN": 1.47,
-      "Combo_Gov": "1.2D + 1.6L"
+      "Mu_eje_fuerte_kNm": 7.05,
+      "Mu_eje_debil_kNm": 2.0,
+      "Vu_kN": 1.98,
+      "Combo_Gov": "B.2.4-5g: 1.2D + 1.4E + 1.0L (B.2.4.2.4)"
     },
     {
       "Columna": "C12",
@@ -250,12 +250,12 @@
       "Longitud_m": 9.08,
       "K_sugerido": 1.85,
       "Seccion": "A1085-6x6x3-16",
-      "Pu_kN": 50.83,
+      "Pu_kN": 54.79,
       "Tipo_Axial": "Tensión",
-      "Mu_eje_fuerte_kNm": 4.08,
-      "Mu_eje_debil_kNm": 1.77,
-      "Vu_kN": 0.89,
-      "Combo_Gov": "1.2D - 1.0E + 1.0L"
+      "Mu_eje_fuerte_kNm": 5.42,
+      "Mu_eje_debil_kNm": 2.06,
+      "Vu_kN": 1.19,
+      "Combo_Gov": "B.2.4-5h: 1.2D - 1.4E + 1.0L (B.2.4.2.4)"
     },
     {
       "Columna": "C13",
@@ -265,12 +265,12 @@
       "Longitud_m": 9.08,
       "K_sugerido": 1.85,
       "Seccion": "A1085-6x6x3-16",
-      "Pu_kN": 90.15,
+      "Pu_kN": 85.92,
       "Tipo_Axial": "Tensión",
-      "Mu_eje_fuerte_kNm": 3.83,
-      "Mu_eje_debil_kNm": 1.05,
-      "Vu_kN": 0.84,
-      "Combo_Gov": "1.2D + 1.6L"
+      "Mu_eje_fuerte_kNm": 5.37,
+      "Mu_eje_debil_kNm": 1.04,
+      "Vu_kN": 1.18,
+      "Combo_Gov": "B.2.4-2a: 1.2D + 1.6L + 0.5Lr"
     },
     {
       "Columna": "C14",
@@ -280,12 +280,12 @@
       "Longitud_m": 9.08,
       "K_sugerido": 1.85,
       "Seccion": "A1085-6x6x3-16",
-      "Pu_kN": 50.83,
+      "Pu_kN": 54.79,
       "Tipo_Axial": "Tensión",
-      "Mu_eje_fuerte_kNm": 4.08,
-      "Mu_eje_debil_kNm": 1.77,
-      "Vu_kN": 0.89,
-      "Combo_Gov": "1.2D + 1.0E + 1.0L"
+      "Mu_eje_fuerte_kNm": 5.42,
+      "Mu_eje_debil_kNm": 2.06,
+      "Vu_kN": 1.19,
+      "Combo_Gov": "B.2.4-5g: 1.2D + 1.4E + 1.0L (B.2.4.2.4)"
     },
     {
       "Columna": "C15",
@@ -295,12 +295,12 @@
       "Longitud_m": 3.0,
       "K_sugerido": 1.55,
       "Seccion": "A1085-4x4x3-16",
-      "Pu_kN": 8.91,
+      "Pu_kN": 10.45,
       "Tipo_Axial": "Tensión",
-      "Mu_eje_fuerte_kNm": 8.81,
-      "Mu_eje_debil_kNm": 2.65,
-      "Vu_kN": 5.85,
-      "Combo_Gov": "1.2D - 1.0E + 1.0L"
+      "Mu_eje_fuerte_kNm": 12.17,
+      "Mu_eje_debil_kNm": 3.36,
+      "Vu_kN": 8.08,
+      "Combo_Gov": "B.2.4-5h: 1.2D - 1.4E + 1.0L (B.2.4.2.4)"
     },
     {
       "Columna": "C16",
@@ -310,12 +310,12 @@
       "Longitud_m": 3.0,
       "K_sugerido": 1.55,
       "Seccion": "A1085-4x4x3-16",
-      "Pu_kN": 20.95,
+      "Pu_kN": 20.88,
       "Tipo_Axial": "Tensión",
-      "Mu_eje_fuerte_kNm": 9.02,
-      "Mu_eje_debil_kNm": 1.08,
-      "Vu_kN": 5.99,
-      "Combo_Gov": "1.2D + 1.6L"
+      "Mu_eje_fuerte_kNm": 12.63,
+      "Mu_eje_debil_kNm": 1.01,
+      "Vu_kN": 8.39,
+      "Combo_Gov": "B.2.4-3a: 1.2D + 1.6Lr + 1.0L"
     },
     {
       "Columna": "C17",
@@ -325,12 +325,12 @@
       "Longitud_m": 3.0,
       "K_sugerido": 1.55,
       "Seccion": "A1085-4x4x3-16",
-      "Pu_kN": 8.91,
+      "Pu_kN": 10.45,
       "Tipo_Axial": "Tensión",
-      "Mu_eje_fuerte_kNm": 8.81,
-      "Mu_eje_debil_kNm": 2.65,
-      "Vu_kN": 5.85,
-      "Combo_Gov": "1.2D + 1.0E + 1.0L"
+      "Mu_eje_fuerte_kNm": 12.17,
+      "Mu_eje_debil_kNm": 3.36,
+      "Vu_kN": 8.08,
+      "Combo_Gov": "B.2.4-5g: 1.2D + 1.4E + 1.0L (B.2.4.2.4)"
     },
     {
       "Columna": "C18",
@@ -340,12 +340,12 @@
       "Longitud_m": 3.0,
       "K_sugerido": 1.55,
       "Seccion": "A1085-4x4x3-16",
-      "Pu_kN": 20.06,
+      "Pu_kN": 20.73,
       "Tipo_Axial": "Tensión",
-      "Mu_eje_fuerte_kNm": 9.45,
-      "Mu_eje_debil_kNm": 0.42,
-      "Vu_kN": 6.29,
-      "Combo_Gov": "1.2D + 1.6Lr - 0.8W"
+      "Mu_eje_fuerte_kNm": 13.01,
+      "Mu_eje_debil_kNm": 0.54,
+      "Vu_kN": 8.65,
+      "Combo_Gov": "B.2.4-5h: 1.2D - 1.4E + 1.0L (B.2.4.2.4)"
     },
     {
       "Columna": "C19",
@@ -357,10 +357,10 @@
       "Seccion": "A1085-4x4x3-16",
       "Pu_kN": 49.55,
       "Tipo_Axial": "Tensión",
-      "Mu_eje_fuerte_kNm": 9.28,
+      "Mu_eje_fuerte_kNm": 12.99,
       "Mu_eje_debil_kNm": 0.08,
-      "Vu_kN": 6.18,
-      "Combo_Gov": "1.2D + 1.6Lr - 0.8W"
+      "Vu_kN": 8.66,
+      "Combo_Gov": "B.2.4-3d: 1.2D + 1.6Lr - 0.8W"
     },
     {
       "Columna": "C20",
@@ -370,12 +370,12 @@
       "Longitud_m": 3.0,
       "K_sugerido": 1.55,
       "Seccion": "A1085-4x4x3-16",
-      "Pu_kN": 20.06,
+      "Pu_kN": 20.73,
       "Tipo_Axial": "Tensión",
-      "Mu_eje_fuerte_kNm": 9.45,
-      "Mu_eje_debil_kNm": 0.42,
-      "Vu_kN": 6.29,
-      "Combo_Gov": "1.2D + 1.6Lr + 0.8W"
+      "Mu_eje_fuerte_kNm": 13.01,
+      "Mu_eje_debil_kNm": 0.54,
+      "Vu_kN": 8.65,
+      "Combo_Gov": "B.2.4-5g: 1.2D + 1.4E + 1.0L (B.2.4.2.4)"
     },
     {
       "Columna": "C21",
@@ -385,12 +385,12 @@
       "Longitud_m": 3.0,
       "K_sugerido": 1.55,
       "Seccion": "A1085-4x4x3-16",
-      "Pu_kN": 17.63,
+      "Pu_kN": 18.28,
       "Tipo_Axial": "Tensión",
-      "Mu_eje_fuerte_kNm": 9.53,
-      "Mu_eje_debil_kNm": 0.1,
-      "Vu_kN": 6.34,
-      "Combo_Gov": "1.2D + 1.6Lr - 0.8W"
+      "Mu_eje_fuerte_kNm": 13.07,
+      "Mu_eje_debil_kNm": 0.11,
+      "Vu_kN": 8.7,
+      "Combo_Gov": "B.2.4-5h: 1.2D - 1.4E + 1.0L (B.2.4.2.4)"
     },
     {
       "Columna": "C22",
@@ -402,10 +402,10 @@
       "Seccion": "A1085-4x4x3-16",
       "Pu_kN": 45.2,
       "Tipo_Axial": "Tensión",
-      "Mu_eje_fuerte_kNm": 9.24,
-      "Mu_eje_debil_kNm": 0.15,
-      "Vu_kN": 6.16,
-      "Combo_Gov": "1.2D + 1.6Lr - 0.8W"
+      "Mu_eje_fuerte_kNm": 12.94,
+      "Mu_eje_debil_kNm": 0.13,
+      "Vu_kN": 8.62,
+      "Combo_Gov": "B.2.4-2c: 1.2D + 1.6Lr"
     },
     {
       "Columna": "C23",
@@ -415,12 +415,12 @@
       "Longitud_m": 3.0,
       "K_sugerido": 1.55,
       "Seccion": "A1085-4x4x3-16",
-      "Pu_kN": 17.63,
+      "Pu_kN": 18.28,
       "Tipo_Axial": "Tensión",
-      "Mu_eje_fuerte_kNm": 9.53,
-      "Mu_eje_debil_kNm": 0.1,
-      "Vu_kN": 6.34,
-      "Combo_Gov": "1.2D + 1.6Lr + 0.8W"
+      "Mu_eje_fuerte_kNm": 13.07,
+      "Mu_eje_debil_kNm": 0.11,
+      "Vu_kN": 8.7,
+      "Combo_Gov": "B.2.4-5g: 1.2D + 1.4E + 1.0L (B.2.4.2.4)"
     },
     {
       "Columna": "C24",
@@ -430,12 +430,12 @@
       "Longitud_m": 3.0,
       "K_sugerido": 1.55,
       "Seccion": "A1085-4x4x3-16",
-      "Pu_kN": 20.27,
+      "Pu_kN": 20.42,
       "Tipo_Axial": "Tensión",
-      "Mu_eje_fuerte_kNm": 9.7,
-      "Mu_eje_debil_kNm": 0.21,
-      "Vu_kN": 6.46,
-      "Combo_Gov": "1.2D + 1.6Lr - 0.8W"
+      "Mu_eje_fuerte_kNm": 13.27,
+      "Mu_eje_debil_kNm": 0.23,
+      "Vu_kN": 8.84,
+      "Combo_Gov": "B.2.4-5h: 1.2D - 1.4E + 1.0L (B.2.4.2.4)"
     },
     {
       "Columna": "C25",
@@ -447,10 +447,10 @@
       "Seccion": "A1085-4x4x3-16",
       "Pu_kN": 47.02,
       "Tipo_Axial": "Tensión",
-      "Mu_eje_fuerte_kNm": 9.31,
+      "Mu_eje_fuerte_kNm": 13.04,
       "Mu_eje_debil_kNm": 0.2,
-      "Vu_kN": 6.21,
-      "Combo_Gov": "1.2D + 1.6Lr + 0.8W"
+      "Vu_kN": 8.69,
+      "Combo_Gov": "B.2.4-3c: 1.2D + 1.6Lr + 0.8W"
     },
     {
       "Columna": "C26",
@@ -460,12 +460,12 @@
       "Longitud_m": 3.0,
       "K_sugerido": 1.55,
       "Seccion": "A1085-4x4x3-16",
-      "Pu_kN": 20.27,
+      "Pu_kN": 20.42,
       "Tipo_Axial": "Tensión",
-      "Mu_eje_fuerte_kNm": 9.7,
-      "Mu_eje_debil_kNm": 0.21,
-      "Vu_kN": 6.46,
-      "Combo_Gov": "1.2D + 1.6Lr + 0.8W"
+      "Mu_eje_fuerte_kNm": 13.27,
+      "Mu_eje_debil_kNm": 0.23,
+      "Vu_kN": 8.84,
+      "Combo_Gov": "B.2.4-5g: 1.2D + 1.4E + 1.0L (B.2.4.2.4)"
     },
     {
       "Columna": "C27",
@@ -475,12 +475,12 @@
       "Longitud_m": 3.0,
       "K_sugerido": 1.55,
       "Seccion": "A1085-4x4x3-16",
-      "Pu_kN": 10.47,
+      "Pu_kN": 12.17,
       "Tipo_Axial": "Tensión",
-      "Mu_eje_fuerte_kNm": 9.43,
-      "Mu_eje_debil_kNm": 1.22,
-      "Vu_kN": 6.22,
-      "Combo_Gov": "1.2D - 1.0E + 1.0L"
+      "Mu_eje_fuerte_kNm": 12.89,
+      "Mu_eje_debil_kNm": 1.16,
+      "Vu_kN": 8.52,
+      "Combo_Gov": "B.2.4-5h: 1.2D - 1.4E + 1.0L (B.2.4.2.4)"
     },
     {
       "Columna": "C28",
@@ -492,10 +492,10 @@
       "Seccion": "A1085-4x4x3-16",
       "Pu_kN": 19.52,
       "Tipo_Axial": "Tensión",
-      "Mu_eje_fuerte_kNm": 9.25,
-      "Mu_eje_debil_kNm": 1.19,
-      "Vu_kN": 6.16,
-      "Combo_Gov": "1.2D + 1.6Lr - 0.8W"
+      "Mu_eje_fuerte_kNm": 12.95,
+      "Mu_eje_debil_kNm": 1.12,
+      "Vu_kN": 8.63,
+      "Combo_Gov": "B.2.4-3d: 1.2D + 1.6Lr - 0.8W"
     },
     {
       "Columna": "C29",
@@ -505,12 +505,12 @@
       "Longitud_m": 3.0,
       "K_sugerido": 1.55,
       "Seccion": "A1085-4x4x3-16",
-      "Pu_kN": 10.47,
+      "Pu_kN": 12.17,
       "Tipo_Axial": "Tensión",
-      "Mu_eje_fuerte_kNm": 9.43,
-      "Mu_eje_debil_kNm": 1.22,
-      "Vu_kN": 6.22,
-      "Combo_Gov": "1.2D + 1.0E + 1.0L"
+      "Mu_eje_fuerte_kNm": 12.89,
+      "Mu_eje_debil_kNm": 1.16,
+      "Vu_kN": 8.52,
+      "Combo_Gov": "B.2.4-5g: 1.2D + 1.4E + 1.0L (B.2.4.2.4)"
     }
   ],
   "resumen_vigas": [
@@ -521,11 +521,11 @@
       "Nodo2": "N18",
       "Longitud_m": 3.5,
       "Seccion": "A1085-10x6x3-16",
-      "Mu_max_kNm": 20.88,
-      "Mu_debil_kNm": 0.8,
-      "Vu_max_kN": 23.51,
-      "Pu_kN": 14.64,
-      "Combo_Gov": "0.9D - 1.0E"
+      "Mu_max_kNm": 28.58,
+      "Mu_debil_kNm": 1.12,
+      "Vu_max_kN": 26.47,
+      "Pu_kN": 20.47,
+      "Combo_Gov": "B.2.4-5j: 1.2D - 1.4E + 0.5L (B.2.4.2.4)"
     },
     {
       "Viga": "V1",
@@ -534,11 +534,11 @@
       "Nodo2": "N19",
       "Longitud_m": 3.5,
       "Seccion": "A1085-10x6x3-16",
-      "Mu_max_kNm": 4.21,
-      "Mu_debil_kNm": 0.42,
+      "Mu_max_kNm": 4.22,
+      "Mu_debil_kNm": 0.58,
       "Vu_max_kN": 6.16,
       "Pu_kN": 0.08,
-      "Combo_Gov": "1.2D + 1.6L + 0.5Lr"
+      "Combo_Gov": "B.2.4-2b: 1.2D + 1.6L"
     },
     {
       "Viga": "V2",
@@ -547,11 +547,11 @@
       "Nodo2": "N20",
       "Longitud_m": 3.5,
       "Seccion": "A1085-10x6x3-16",
-      "Mu_max_kNm": 20.88,
-      "Mu_debil_kNm": 0.8,
-      "Vu_max_kN": 23.51,
-      "Pu_kN": 14.64,
-      "Combo_Gov": "0.9D + 1.0E"
+      "Mu_max_kNm": 28.58,
+      "Mu_debil_kNm": 1.12,
+      "Vu_max_kN": 26.47,
+      "Pu_kN": 20.47,
+      "Combo_Gov": "B.2.4-5i: 1.2D + 1.4E + 0.5L (B.2.4.2.4)"
     },
     {
       "Viga": "V3",
@@ -560,11 +560,11 @@
       "Nodo2": "N21",
       "Longitud_m": 3.5,
       "Seccion": "A1085-10x6x3-16",
-      "Mu_max_kNm": 10.97,
-      "Mu_debil_kNm": 0.15,
+      "Mu_max_kNm": 11.64,
+      "Mu_debil_kNm": 0.21,
       "Vu_max_kN": 16.62,
-      "Pu_kN": 9.42,
-      "Combo_Gov": "1.2D + 1.0E + 1.0L"
+      "Pu_kN": 13.15,
+      "Combo_Gov": "B.2.4-5g: 1.2D + 1.4E + 1.0L (B.2.4.2.4)"
     },
     {
       "Viga": "V4",
@@ -574,10 +574,10 @@
       "Longitud_m": 3.5,
       "Seccion": "A1085-10x6x3-16",
       "Mu_max_kNm": 3.71,
-      "Mu_debil_kNm": 0.18,
+      "Mu_debil_kNm": 0.25,
       "Vu_max_kN": 5.03,
-      "Pu_kN": 0.06,
-      "Combo_Gov": "1.4D"
+      "Pu_kN": 0.07,
+      "Combo_Gov": "B.2.4-1: 1.4D"
     },
     {
       "Viga": "V5",
@@ -586,11 +586,11 @@
       "Nodo2": "N23",
       "Longitud_m": 3.5,
       "Seccion": "A1085-10x6x3-16",
-      "Mu_max_kNm": 10.97,
-      "Mu_debil_kNm": 0.15,
+      "Mu_max_kNm": 11.64,
+      "Mu_debil_kNm": 0.21,
       "Vu_max_kN": 16.62,
-      "Pu_kN": 9.42,
-      "Combo_Gov": "1.2D - 1.0E + 1.0L"
+      "Pu_kN": 13.15,
+      "Combo_Gov": "B.2.4-5h: 1.2D - 1.4E + 1.0L (B.2.4.2.4)"
     },
     {
       "Viga": "V6",
@@ -600,10 +600,10 @@
       "Longitud_m": 3.5,
       "Seccion": "A1085-10x6x3-16",
       "Mu_max_kNm": 10.41,
-      "Mu_debil_kNm": 0.15,
+      "Mu_debil_kNm": 0.21,
       "Vu_max_kN": 16.58,
-      "Pu_kN": 4.33,
-      "Combo_Gov": "1.4D"
+      "Pu_kN": 6.05,
+      "Combo_Gov": "B.2.4-1: 1.4D"
     },
     {
       "Viga": "V7",
@@ -613,10 +613,10 @@
       "Longitud_m": 3.5,
       "Seccion": "A1085-10x6x3-16",
       "Mu_max_kNm": 3.28,
-      "Mu_debil_kNm": 0.11,
+      "Mu_debil_kNm": 0.16,
       "Vu_max_kN": 4.88,
       "Pu_kN": 0.05,
-      "Combo_Gov": "1.4D"
+      "Combo_Gov": "B.2.4-1: 1.4D"
     },
     {
       "Viga": "V8",
@@ -626,10 +626,10 @@
       "Longitud_m": 3.5,
       "Seccion": "A1085-10x6x3-16",
       "Mu_max_kNm": 10.41,
-      "Mu_debil_kNm": 0.15,
+      "Mu_debil_kNm": 0.21,
       "Vu_max_kN": 16.58,
-      "Pu_kN": 4.33,
-      "Combo_Gov": "1.4D"
+      "Pu_kN": 6.05,
+      "Combo_Gov": "B.2.4-1: 1.4D"
     },
     {
       "Viga": "V9",
@@ -639,10 +639,10 @@
       "Longitud_m": 3.5,
       "Seccion": "A1085-10x6x3-16",
       "Mu_max_kNm": 10.74,
-      "Mu_debil_kNm": 0.12,
+      "Mu_debil_kNm": 0.17,
       "Vu_max_kN": 18.38,
-      "Pu_kN": 1.16,
-      "Combo_Gov": "1.4D"
+      "Pu_kN": 1.6,
+      "Combo_Gov": "B.2.4-1: 1.4D"
     },
     {
       "Viga": "V10",
@@ -652,10 +652,10 @@
       "Longitud_m": 3.5,
       "Seccion": "A1085-10x6x3-16",
       "Mu_max_kNm": 4.56,
-      "Mu_debil_kNm": 0.08,
+      "Mu_debil_kNm": 0.12,
       "Vu_max_kN": 6.02,
       "Pu_kN": 0.04,
-      "Combo_Gov": "1.2D + 1.6L + 0.5Lr"
+      "Combo_Gov": "B.2.4-2b: 1.2D + 1.6L"
     },
     {
       "Viga": "V11",
@@ -665,10 +665,10 @@
       "Longitud_m": 3.5,
       "Seccion": "A1085-10x6x3-16",
       "Mu_max_kNm": 10.74,
-      "Mu_debil_kNm": 0.12,
+      "Mu_debil_kNm": 0.17,
       "Vu_max_kN": 18.38,
-      "Pu_kN": 1.16,
-      "Combo_Gov": "1.4D"
+      "Pu_kN": 1.6,
+      "Combo_Gov": "B.2.4-1: 1.4D"
     },
     {
       "Viga": "V12",
@@ -677,11 +677,11 @@
       "Nodo2": "N16",
       "Longitud_m": 3.0,
       "Seccion": "A1085-10x6x3-16",
-      "Mu_max_kNm": 13.25,
-      "Mu_debil_kNm": 1.0,
-      "Vu_max_kN": 18.33,
-      "Pu_kN": 1.51,
-      "Combo_Gov": "1.2D + 1.0E + 1.0L"
+      "Mu_max_kNm": 15.43,
+      "Mu_debil_kNm": 1.4,
+      "Vu_max_kN": 20.05,
+      "Pu_kN": 1.79,
+      "Combo_Gov": "B.2.4-5g: 1.2D + 1.4E + 1.0L (B.2.4.2.4)"
     },
     {
       "Viga": "V13",
@@ -690,11 +690,11 @@
       "Nodo2": "N17",
       "Longitud_m": 3.0,
       "Seccion": "A1085-10x6x3-16",
-      "Mu_max_kNm": 13.25,
-      "Mu_debil_kNm": 1.0,
-      "Vu_max_kN": 18.33,
-      "Pu_kN": 1.51,
-      "Combo_Gov": "1.2D - 1.0E + 1.0L"
+      "Mu_max_kNm": 15.43,
+      "Mu_debil_kNm": 1.4,
+      "Vu_max_kN": 20.05,
+      "Pu_kN": 1.79,
+      "Combo_Gov": "B.2.4-5h: 1.2D - 1.4E + 1.0L (B.2.4.2.4)"
     },
     {
       "Viga": "V14",
@@ -703,11 +703,11 @@
       "Nodo2": "N19",
       "Longitud_m": 3.0,
       "Seccion": "A1085-10x6x3-16",
-      "Mu_max_kNm": 6.35,
-      "Mu_debil_kNm": 0.14,
-      "Vu_max_kN": 7.25,
-      "Pu_kN": 1.34,
-      "Combo_Gov": "1.2D + 1.0E + 1.0L"
+      "Mu_max_kNm": 8.04,
+      "Mu_debil_kNm": 0.2,
+      "Vu_max_kN": 8.1,
+      "Pu_kN": 1.86,
+      "Combo_Gov": "B.2.4-5g: 1.2D + 1.4E + 1.0L (B.2.4.2.4)"
     },
     {
       "Viga": "V15",
@@ -716,11 +716,11 @@
       "Nodo2": "N20",
       "Longitud_m": 3.0,
       "Seccion": "A1085-10x6x3-16",
-      "Mu_max_kNm": 6.35,
-      "Mu_debil_kNm": 0.14,
-      "Vu_max_kN": 7.25,
-      "Pu_kN": 1.34,
-      "Combo_Gov": "1.2D - 1.0E + 1.0L"
+      "Mu_max_kNm": 8.04,
+      "Mu_debil_kNm": 0.2,
+      "Vu_max_kN": 8.1,
+      "Pu_kN": 1.86,
+      "Combo_Gov": "B.2.4-5h: 1.2D - 1.4E + 1.0L (B.2.4.2.4)"
     },
     {
       "Viga": "V16",
@@ -729,11 +729,11 @@
       "Nodo2": "N22",
       "Longitud_m": 3.0,
       "Seccion": "A1085-10x6x3-16",
-      "Mu_max_kNm": 6.05,
-      "Mu_debil_kNm": 0.14,
-      "Vu_max_kN": 7.01,
-      "Pu_kN": 0.71,
-      "Combo_Gov": "1.2D + 1.0E + 1.0L"
+      "Mu_max_kNm": 7.56,
+      "Mu_debil_kNm": 0.19,
+      "Vu_max_kN": 7.78,
+      "Pu_kN": 0.99,
+      "Combo_Gov": "B.2.4-5g: 1.2D + 1.4E + 1.0L (B.2.4.2.4)"
     },
     {
       "Viga": "V17",
@@ -742,11 +742,11 @@
       "Nodo2": "N23",
       "Longitud_m": 3.0,
       "Seccion": "A1085-10x6x3-16",
-      "Mu_max_kNm": 6.05,
-      "Mu_debil_kNm": 0.14,
-      "Vu_max_kN": 7.01,
-      "Pu_kN": 0.71,
-      "Combo_Gov": "1.2D - 1.0E + 1.0L"
+      "Mu_max_kNm": 7.56,
+      "Mu_debil_kNm": 0.19,
+      "Vu_max_kN": 7.78,
+      "Pu_kN": 0.99,
+      "Combo_Gov": "B.2.4-5h: 1.2D - 1.4E + 1.0L (B.2.4.2.4)"
     },
     {
       "Viga": "V18",
@@ -755,11 +755,11 @@
       "Nodo2": "N25",
       "Longitud_m": 3.0,
       "Seccion": "A1085-10x6x3-16",
-      "Mu_max_kNm": 5.35,
-      "Mu_debil_kNm": 0.09,
-      "Vu_max_kN": 6.47,
-      "Pu_kN": 0.32,
-      "Combo_Gov": "1.2D + 1.0E + 1.0L"
+      "Mu_max_kNm": 6.59,
+      "Mu_debil_kNm": 0.13,
+      "Vu_max_kN": 7.1,
+      "Pu_kN": 0.45,
+      "Combo_Gov": "B.2.4-5g: 1.2D + 1.4E + 1.0L (B.2.4.2.4)"
     },
     {
       "Viga": "V19",
@@ -768,11 +768,11 @@
       "Nodo2": "N26",
       "Longitud_m": 3.0,
       "Seccion": "A1085-10x6x3-16",
-      "Mu_max_kNm": 5.35,
-      "Mu_debil_kNm": 0.09,
-      "Vu_max_kN": 6.47,
-      "Pu_kN": 0.32,
-      "Combo_Gov": "1.2D - 1.0E + 1.0L"
+      "Mu_max_kNm": 6.59,
+      "Mu_debil_kNm": 0.13,
+      "Vu_max_kN": 7.1,
+      "Pu_kN": 0.45,
+      "Combo_Gov": "B.2.4-5h: 1.2D - 1.4E + 1.0L (B.2.4.2.4)"
     },
     {
       "Viga": "V20",
@@ -781,11 +781,11 @@
       "Nodo2": "N28",
       "Longitud_m": 3.0,
       "Seccion": "A1085-10x6x3-16",
-      "Mu_max_kNm": 9.99,
-      "Mu_debil_kNm": 0.12,
-      "Vu_max_kN": 16.82,
-      "Pu_kN": 0.33,
-      "Combo_Gov": "1.2D + 1.0E + 1.0L"
+      "Mu_max_kNm": 11.15,
+      "Mu_debil_kNm": 0.16,
+      "Vu_max_kN": 17.89,
+      "Pu_kN": 0.45,
+      "Combo_Gov": "B.2.4-5g: 1.2D + 1.4E + 1.0L (B.2.4.2.4)"
     },
     {
       "Viga": "V21",
@@ -794,11 +794,11 @@
       "Nodo2": "N29",
       "Longitud_m": 3.0,
       "Seccion": "A1085-10x6x3-16",
-      "Mu_max_kNm": 9.99,
-      "Mu_debil_kNm": 0.12,
-      "Vu_max_kN": 16.82,
-      "Pu_kN": 0.33,
-      "Combo_Gov": "1.2D - 1.0E + 1.0L"
+      "Mu_max_kNm": 11.15,
+      "Mu_debil_kNm": 0.16,
+      "Vu_max_kN": 17.89,
+      "Pu_kN": 0.45,
+      "Combo_Gov": "B.2.4-5h: 1.2D - 1.4E + 1.0L (B.2.4.2.4)"
     },
     {
       "Viga": "V22",
@@ -807,11 +807,11 @@
       "Nodo2": "N33",
       "Longitud_m": 3.5,
       "Seccion": "A1085-4x2x3-16",
-      "Mu_max_kNm": 0.17,
-      "Mu_debil_kNm": 0.01,
+      "Mu_max_kNm": 0.18,
+      "Mu_debil_kNm": 0.02,
       "Vu_max_kN": 0.29,
-      "Pu_kN": 0.07,
-      "Combo_Gov": "1.2D - 1.0E + 1.0L"
+      "Pu_kN": 0.09,
+      "Combo_Gov": "B.2.4-5j: 1.2D - 1.4E + 0.5L (B.2.4.2.4)"
     },
     {
       "Viga": "V23",
@@ -821,10 +821,10 @@
       "Longitud_m": 3.5,
       "Seccion": "A1085-4x2x3-16",
       "Mu_max_kNm": 0.17,
-      "Mu_debil_kNm": 0.01,
+      "Mu_debil_kNm": 0.02,
       "Vu_max_kN": 0.3,
       "Pu_kN": 0.02,
-      "Combo_Gov": "1.4D"
+      "Combo_Gov": "B.2.4-1: 1.4D"
     },
     {
       "Viga": "V24",
@@ -833,11 +833,11 @@
       "Nodo2": "N35",
       "Longitud_m": 3.5,
       "Seccion": "A1085-4x2x3-16",
-      "Mu_max_kNm": 0.17,
-      "Mu_debil_kNm": 0.01,
+      "Mu_max_kNm": 0.18,
+      "Mu_debil_kNm": 0.02,
       "Vu_max_kN": 0.29,
-      "Pu_kN": 0.07,
-      "Combo_Gov": "1.2D + 1.0E + 1.0L"
+      "Pu_kN": 0.09,
+      "Combo_Gov": "B.2.4-5i: 1.2D + 1.4E + 0.5L (B.2.4.2.4)"
     },
     {
       "Viga": "V25",
@@ -846,11 +846,11 @@
       "Nodo2": "N36",
       "Longitud_m": 3.5,
       "Seccion": "A1085-4x2x3-16",
-      "Mu_max_kNm": 0.17,
+      "Mu_max_kNm": 0.18,
       "Mu_debil_kNm": 0.01,
       "Vu_max_kN": 0.25,
-      "Pu_kN": 0.03,
-      "Combo_Gov": "1.4D"
+      "Pu_kN": 0.04,
+      "Combo_Gov": "B.2.4-5j: 1.2D - 1.4E + 0.5L (B.2.4.2.4)"
     },
     {
       "Viga": "V26",
@@ -860,10 +860,10 @@
       "Longitud_m": 3.5,
       "Seccion": "A1085-4x2x3-16",
       "Mu_max_kNm": 0.16,
-      "Mu_debil_kNm": 0.01,
+      "Mu_debil_kNm": 0.02,
       "Vu_max_kN": 0.25,
       "Pu_kN": 0.02,
-      "Combo_Gov": "1.4D"
+      "Combo_Gov": "B.2.4-1: 1.4D"
     },
     {
       "Viga": "V27",
@@ -872,11 +872,11 @@
       "Nodo2": "N38",
       "Longitud_m": 3.5,
       "Seccion": "A1085-4x2x3-16",
-      "Mu_max_kNm": 0.17,
+      "Mu_max_kNm": 0.18,
       "Mu_debil_kNm": 0.01,
       "Vu_max_kN": 0.25,
-      "Pu_kN": 0.03,
-      "Combo_Gov": "1.4D"
+      "Pu_kN": 0.04,
+      "Combo_Gov": "B.2.4-5i: 1.2D + 1.4E + 0.5L (B.2.4.2.4)"
     },
     {
       "Viga": "V28",
@@ -889,7 +889,7 @@
       "Mu_debil_kNm": 0.01,
       "Vu_max_kN": 0.25,
       "Pu_kN": 0.02,
-      "Combo_Gov": "1.4D"
+      "Combo_Gov": "B.2.4-1: 1.4D"
     },
     {
       "Viga": "V29",
@@ -899,10 +899,10 @@
       "Longitud_m": 3.5,
       "Seccion": "A1085-4x2x3-16",
       "Mu_max_kNm": 0.15,
-      "Mu_debil_kNm": 0.01,
+      "Mu_debil_kNm": 0.02,
       "Vu_max_kN": 0.25,
-      "Pu_kN": 0.03,
-      "Combo_Gov": "1.4D"
+      "Pu_kN": 0.02,
+      "Combo_Gov": "B.2.4-1: 1.4D"
     },
     {
       "Viga": "V30",
@@ -915,7 +915,7 @@
       "Mu_debil_kNm": 0.01,
       "Vu_max_kN": 0.25,
       "Pu_kN": 0.02,
-      "Combo_Gov": "1.4D"
+      "Combo_Gov": "B.2.4-1: 1.4D"
     },
     {
       "Viga": "V31",
@@ -928,7 +928,7 @@
       "Mu_debil_kNm": 0.01,
       "Vu_max_kN": 0.28,
       "Pu_kN": 0.04,
-      "Combo_Gov": "1.2D + 1.6Lr - 0.8W"
+      "Combo_Gov": "B.2.4-3d: 1.2D + 1.6Lr - 0.8W"
     },
     {
       "Viga": "V32",
@@ -938,10 +938,10 @@
       "Longitud_m": 3.5,
       "Seccion": "A1085-4x2x3-16",
       "Mu_max_kNm": 0.17,
-      "Mu_debil_kNm": 0.01,
+      "Mu_debil_kNm": 0.02,
       "Vu_max_kN": 0.29,
       "Pu_kN": 0.02,
-      "Combo_Gov": "1.2D + 1.6L"
+      "Combo_Gov": "B.2.4-3a: 1.2D + 1.6Lr + 1.0L"
     },
     {
       "Viga": "V33",
@@ -954,7 +954,7 @@
       "Mu_debil_kNm": 0.01,
       "Vu_max_kN": 0.28,
       "Pu_kN": 0.04,
-      "Combo_Gov": "1.2D + 1.6Lr + 0.8W"
+      "Combo_Gov": "B.2.4-3c: 1.2D + 1.6Lr + 0.8W"
     },
     {
       "Viga": "V34",
@@ -963,11 +963,11 @@
       "Nodo2": "N31",
       "Longitud_m": 3.0,
       "Seccion": "A1085-4x2x3-16",
-      "Mu_max_kNm": 0.34,
+      "Mu_max_kNm": 0.48,
       "Mu_debil_kNm": 0.02,
-      "Vu_max_kN": 0.39,
-      "Pu_kN": 0.01,
-      "Combo_Gov": "1.2D - 1.0E + 1.0L"
+      "Vu_max_kN": 0.46,
+      "Pu_kN": 0.02,
+      "Combo_Gov": "B.2.4-5j: 1.2D - 1.4E + 0.5L (B.2.4.2.4)"
     },
     {
       "Viga": "V35",
@@ -976,11 +976,11 @@
       "Nodo2": "N32",
       "Longitud_m": 3.0,
       "Seccion": "A1085-4x2x3-16",
-      "Mu_max_kNm": 0.34,
+      "Mu_max_kNm": 0.48,
       "Mu_debil_kNm": 0.02,
-      "Vu_max_kN": 0.39,
-      "Pu_kN": 0.01,
-      "Combo_Gov": "1.2D + 1.0E + 1.0L"
+      "Vu_max_kN": 0.46,
+      "Pu_kN": 0.02,
+      "Combo_Gov": "B.2.4-5i: 1.2D + 1.4E + 0.5L (B.2.4.2.4)"
     },
     {
       "Viga": "V36",
@@ -989,11 +989,11 @@
       "Nodo2": "N34",
       "Longitud_m": 3.0,
       "Seccion": "A1085-4x2x3-16",
-      "Mu_max_kNm": 0.15,
-      "Mu_debil_kNm": 0.01,
-      "Vu_max_kN": 0.26,
+      "Mu_max_kNm": 0.18,
+      "Mu_debil_kNm": 0.02,
+      "Vu_max_kN": 0.29,
       "Pu_kN": 0.01,
-      "Combo_Gov": "1.2D + 1.0E + 1.0L"
+      "Combo_Gov": "B.2.4-5g: 1.2D + 1.4E + 1.0L (B.2.4.2.4)"
     },
     {
       "Viga": "V37",
@@ -1002,11 +1002,11 @@
       "Nodo2": "N35",
       "Longitud_m": 3.0,
       "Seccion": "A1085-4x2x3-16",
-      "Mu_max_kNm": 0.15,
-      "Mu_debil_kNm": 0.01,
-      "Vu_max_kN": 0.26,
+      "Mu_max_kNm": 0.18,
+      "Mu_debil_kNm": 0.02,
+      "Vu_max_kN": 0.29,
       "Pu_kN": 0.01,
-      "Combo_Gov": "1.2D - 1.0E + 1.0L"
+      "Combo_Gov": "B.2.4-5h: 1.2D - 1.4E + 1.0L (B.2.4.2.4)"
     },
     {
       "Viga": "V38",
@@ -1015,11 +1015,11 @@
       "Nodo2": "N37",
       "Longitud_m": 3.0,
       "Seccion": "A1085-4x2x3-16",
-      "Mu_max_kNm": 0.19,
-      "Mu_debil_kNm": 0.01,
-      "Vu_max_kN": 0.29,
+      "Mu_max_kNm": 0.24,
+      "Mu_debil_kNm": 0.02,
+      "Vu_max_kN": 0.32,
       "Pu_kN": 0.01,
-      "Combo_Gov": "1.2D + 1.0E + 1.0L"
+      "Combo_Gov": "B.2.4-5g: 1.2D + 1.4E + 1.0L (B.2.4.2.4)"
     },
     {
       "Viga": "V39",
@@ -1028,11 +1028,11 @@
       "Nodo2": "N38",
       "Longitud_m": 3.0,
       "Seccion": "A1085-4x2x3-16",
-      "Mu_max_kNm": 0.19,
-      "Mu_debil_kNm": 0.01,
-      "Vu_max_kN": 0.29,
+      "Mu_max_kNm": 0.24,
+      "Mu_debil_kNm": 0.02,
+      "Vu_max_kN": 0.32,
       "Pu_kN": 0.01,
-      "Combo_Gov": "1.2D - 1.0E + 1.0L"
+      "Combo_Gov": "B.2.4-5h: 1.2D - 1.4E + 1.0L (B.2.4.2.4)"
     },
     {
       "Viga": "V40",
@@ -1041,11 +1041,11 @@
       "Nodo2": "N40",
       "Longitud_m": 3.0,
       "Seccion": "A1085-4x2x3-16",
-      "Mu_max_kNm": 0.16,
-      "Mu_debil_kNm": 0.01,
-      "Vu_max_kN": 0.25,
+      "Mu_max_kNm": 0.19,
+      "Mu_debil_kNm": 0.02,
+      "Vu_max_kN": 0.27,
       "Pu_kN": 0.01,
-      "Combo_Gov": "1.2D + 1.0E + 1.0L"
+      "Combo_Gov": "B.2.4-5g: 1.2D + 1.4E + 1.0L (B.2.4.2.4)"
     },
     {
       "Viga": "V41",
@@ -1054,11 +1054,11 @@
       "Nodo2": "N41",
       "Longitud_m": 3.0,
       "Seccion": "A1085-4x2x3-16",
-      "Mu_max_kNm": 0.16,
-      "Mu_debil_kNm": 0.01,
-      "Vu_max_kN": 0.25,
+      "Mu_max_kNm": 0.19,
+      "Mu_debil_kNm": 0.02,
+      "Vu_max_kN": 0.27,
       "Pu_kN": 0.01,
-      "Combo_Gov": "1.2D - 1.0E + 1.0L"
+      "Combo_Gov": "B.2.4-5h: 1.2D - 1.4E + 1.0L (B.2.4.2.4)"
     },
     {
       "Viga": "V42",
@@ -1067,11 +1067,11 @@
       "Nodo2": "N43",
       "Longitud_m": 3.0,
       "Seccion": "A1085-4x2x3-16",
-      "Mu_max_kNm": 0.36,
+      "Mu_max_kNm": 0.49,
       "Mu_debil_kNm": 0.01,
-      "Vu_max_kN": 0.37,
+      "Vu_max_kN": 0.44,
       "Pu_kN": 0.03,
-      "Combo_Gov": "1.2D - 1.0E + 1.0L"
+      "Combo_Gov": "B.2.4-5h: 1.2D - 1.4E + 1.0L (B.2.4.2.4)"
     },
     {
       "Viga": "V43",
@@ -1080,148 +1080,148 @@
       "Nodo2": "N44",
       "Longitud_m": 3.0,
       "Seccion": "A1085-4x2x3-16",
-      "Mu_max_kNm": 0.36,
+      "Mu_max_kNm": 0.49,
       "Mu_debil_kNm": 0.01,
-      "Vu_max_kN": 0.37,
+      "Vu_max_kN": 0.44,
       "Pu_kN": 0.03,
-      "Combo_Gov": "1.2D + 1.0E + 1.0L"
+      "Combo_Gov": "B.2.4-5g: 1.2D + 1.4E + 1.0L (B.2.4.2.4)"
     }
   ],
   "reacciones_zapatas": [
     {
       "Zapata_Nodo": "N0",
-      "Pu_vertical_kN": 66.4,
-      "Vux_kN": 31.57,
-      "Vuz_kN": 96.67,
-      "Mux_kNm": 54.54,
-      "Muz_kNm": 16.33,
-      "Combo_Gov": "1.2D - 1.0E + 1.0L"
+      "Pu_vertical_kN": 77.92,
+      "Vux_kN": 42.08,
+      "Vuz_kN": 135.0,
+      "Mux_kNm": 75.77,
+      "Muz_kNm": 22.17,
+      "Combo_Gov": "B.2.4-5h: 1.2D - 1.4E + 1.0L (B.2.4.2.4)"
     },
     {
       "Zapata_Nodo": "N1",
-      "Pu_vertical_kN": 89.55,
-      "Vux_kN": 31.61,
+      "Pu_vertical_kN": 85.14,
+      "Vux_kN": 44.25,
       "Vuz_kN": 0.6,
       "Mux_kNm": 1.93,
-      "Muz_kNm": 16.35,
-      "Combo_Gov": "1.2D + 1.6L"
+      "Muz_kNm": 22.89,
+      "Combo_Gov": "B.2.4-2a: 1.2D + 1.6L + 0.5Lr"
     },
     {
       "Zapata_Nodo": "N2",
-      "Pu_vertical_kN": 66.4,
-      "Vux_kN": 31.57,
-      "Vuz_kN": 96.67,
-      "Mux_kNm": 54.54,
-      "Muz_kNm": 16.33,
-      "Combo_Gov": "1.2D + 1.0E + 1.0L"
+      "Pu_vertical_kN": 77.92,
+      "Vux_kN": 42.08,
+      "Vuz_kN": 135.0,
+      "Mux_kNm": 75.77,
+      "Muz_kNm": 22.17,
+      "Combo_Gov": "B.2.4-5g: 1.2D + 1.4E + 1.0L (B.2.4.2.4)"
     },
     {
       "Zapata_Nodo": "N3",
-      "Pu_vertical_kN": 87.0,
-      "Vux_kN": 6.86,
-      "Vuz_kN": 5.65,
-      "Mux_kNm": 8.23,
-      "Muz_kNm": 10.28,
-      "Combo_Gov": "1.2D + 1.6L"
+      "Pu_vertical_kN": 82.94,
+      "Vux_kN": 9.29,
+      "Vuz_kN": 7.69,
+      "Mux_kNm": 11.23,
+      "Muz_kNm": 14.08,
+      "Combo_Gov": "B.2.4-2a: 1.2D + 1.6L + 0.5Lr"
     },
     {
       "Zapata_Nodo": "N4",
-      "Pu_vertical_kN": 161.67,
-      "Vux_kN": 6.69,
+      "Pu_vertical_kN": 151.18,
+      "Vux_kN": 9.37,
       "Vuz_kN": 0.53,
       "Mux_kNm": 0.76,
-      "Muz_kNm": 10.11,
-      "Combo_Gov": "1.2D + 1.6L"
+      "Muz_kNm": 14.15,
+      "Combo_Gov": "B.2.4-2a: 1.2D + 1.6L + 0.5Lr"
     },
     {
       "Zapata_Nodo": "N5",
-      "Pu_vertical_kN": 87.0,
-      "Vux_kN": 6.86,
-      "Vuz_kN": 5.65,
-      "Mux_kNm": 8.23,
-      "Muz_kNm": 10.28,
-      "Combo_Gov": "1.2D + 1.6L"
+      "Pu_vertical_kN": 82.94,
+      "Vux_kN": 9.29,
+      "Vuz_kN": 7.69,
+      "Mux_kNm": 11.23,
+      "Muz_kNm": 14.08,
+      "Combo_Gov": "B.2.4-2a: 1.2D + 1.6L + 0.5Lr"
     },
     {
       "Zapata_Nodo": "N6",
-      "Pu_vertical_kN": 81.19,
-      "Vux_kN": 2.73,
-      "Vuz_kN": 1.0,
-      "Mux_kNm": 2.6,
-      "Muz_kNm": 6.79,
-      "Combo_Gov": "1.2D - 1.0E + 1.0L"
+      "Pu_vertical_kN": 86.49,
+      "Vux_kN": 3.7,
+      "Vuz_kN": 1.38,
+      "Mux_kNm": 3.58,
+      "Muz_kNm": 9.3,
+      "Combo_Gov": "B.2.4-5h: 1.2D - 1.4E + 1.0L (B.2.4.2.4)"
     },
     {
       "Zapata_Nodo": "N7",
-      "Pu_vertical_kN": 146.25,
-      "Vux_kN": 2.59,
+      "Pu_vertical_kN": 136.72,
+      "Vux_kN": 3.63,
       "Vuz_kN": 0.02,
-      "Mux_kNm": 0.11,
-      "Muz_kNm": 6.56,
-      "Combo_Gov": "1.2D + 1.6L"
+      "Mux_kNm": 0.12,
+      "Muz_kNm": 9.19,
+      "Combo_Gov": "B.2.4-2a: 1.2D + 1.6L + 0.5Lr"
     },
     {
       "Zapata_Nodo": "N8",
-      "Pu_vertical_kN": 81.19,
-      "Vux_kN": 2.73,
-      "Vuz_kN": 1.0,
-      "Mux_kNm": 2.6,
-      "Muz_kNm": 6.79,
-      "Combo_Gov": "1.2D + 1.0E + 1.0L"
+      "Pu_vertical_kN": 86.49,
+      "Vux_kN": 3.7,
+      "Vuz_kN": 1.38,
+      "Mux_kNm": 3.58,
+      "Muz_kNm": 9.3,
+      "Combo_Gov": "B.2.4-5g: 1.2D + 1.4E + 1.0L (B.2.4.2.4)"
     },
     {
       "Zapata_Nodo": "N9",
-      "Pu_vertical_kN": 89.59,
-      "Vux_kN": 1.47,
-      "Vuz_kN": 0.4,
-      "Mux_kNm": 1.34,
-      "Muz_kNm": 5.09,
-      "Combo_Gov": "1.2D + 1.6L"
+      "Pu_vertical_kN": 93.78,
+      "Vux_kN": 1.98,
+      "Vuz_kN": 0.55,
+      "Mux_kNm": 1.86,
+      "Muz_kNm": 6.95,
+      "Combo_Gov": "B.2.4-5h: 1.2D - 1.4E + 1.0L (B.2.4.2.4)"
     },
     {
       "Zapata_Nodo": "N10",
-      "Pu_vertical_kN": 155.4,
-      "Vux_kN": 1.37,
+      "Pu_vertical_kN": 145.66,
+      "Vux_kN": 1.92,
       "Vuz_kN": 0.03,
       "Mux_kNm": 0.03,
-      "Muz_kNm": 4.87,
-      "Combo_Gov": "1.2D + 1.6L"
+      "Muz_kNm": 6.81,
+      "Combo_Gov": "B.2.4-2a: 1.2D + 1.6L + 0.5Lr"
     },
     {
       "Zapata_Nodo": "N11",
-      "Pu_vertical_kN": 89.59,
-      "Vux_kN": 1.47,
-      "Vuz_kN": 0.4,
-      "Mux_kNm": 1.34,
-      "Muz_kNm": 5.09,
-      "Combo_Gov": "1.2D + 1.6L"
+      "Pu_vertical_kN": 93.78,
+      "Vux_kN": 1.98,
+      "Vuz_kN": 0.55,
+      "Mux_kNm": 1.86,
+      "Muz_kNm": 6.95,
+      "Combo_Gov": "B.2.4-5g: 1.2D + 1.4E + 1.0L (B.2.4.2.4)"
     },
     {
       "Zapata_Nodo": "N12",
-      "Pu_vertical_kN": 50.83,
-      "Vux_kN": 0.89,
-      "Vuz_kN": 0.34,
-      "Mux_kNm": 1.31,
-      "Muz_kNm": 3.98,
-      "Combo_Gov": "1.2D - 1.0E + 1.0L"
+      "Pu_vertical_kN": 54.79,
+      "Vux_kN": 1.19,
+      "Vuz_kN": 0.4,
+      "Mux_kNm": 1.61,
+      "Muz_kNm": 5.42,
+      "Combo_Gov": "B.2.4-5h: 1.2D - 1.4E + 1.0L (B.2.4.2.4)"
     },
     {
       "Zapata_Nodo": "N13",
-      "Pu_vertical_kN": 90.15,
-      "Vux_kN": 0.84,
+      "Pu_vertical_kN": 85.92,
+      "Vux_kN": 1.18,
       "Vuz_kN": 0.18,
       "Mux_kNm": 0.56,
-      "Muz_kNm": 3.83,
-      "Combo_Gov": "1.2D + 1.6L"
+      "Muz_kNm": 5.37,
+      "Combo_Gov": "B.2.4-2a: 1.2D + 1.6L + 0.5Lr"
     },
     {
       "Zapata_Nodo": "N14",
-      "Pu_vertical_kN": 50.83,
-      "Vux_kN": 0.89,
-      "Vuz_kN": 0.34,
-      "Mux_kNm": 1.31,
-      "Muz_kNm": 3.98,
-      "Combo_Gov": "1.2D + 1.0E + 1.0L"
+      "Pu_vertical_kN": 54.79,
+      "Vux_kN": 1.19,
+      "Vuz_kN": 0.4,
+      "Mux_kNm": 1.61,
+      "Muz_kNm": 5.42,
+      "Combo_Gov": "B.2.4-5g: 1.2D + 1.4E + 1.0L (B.2.4.2.4)"
     }
   ]
 }

@@ -466,11 +466,6 @@ class AppDisenoGUI(ctk.CTk):
 # MODO LÍNEA DE COMANDOS (CLI INTERACTIVO)
 # =============================================================================
 def modo_consola_interactivo():
-    from .puente_fuerzas import obtener_elementos_disponibles
-    from .catalogo_hss import get_profile, list_all_profiles
-    from .verificador_aisc import AISCHSSDesigner
-    from .tutor_didactico import LECCIONES_DIDACTICAS, explicar_resultado_paso_a_paso
-
     designer = AISCHSSDesigner(Fy=345.0, E=200000.0, system="si")
     elementos = obtener_elementos_disponibles()
 

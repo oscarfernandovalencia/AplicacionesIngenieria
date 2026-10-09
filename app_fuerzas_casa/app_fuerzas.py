@@ -127,8 +127,8 @@ class AppFuerzasGUI(ctk.CTk):
         ctk.CTkLabel(ctrl_bar, text="Combinación:").pack(side="left", padx=(0, 5))
         self.combo_combos = ctk.CTkComboBox(
             ctrl_bar,
-            values=["ENV (Envolvente Crítica)", "1.2D + 1.6L", "1.4D", "1.2D + 1.0E + 1.0L", "1.2D + 1.6W + 1.0L + 0.5Lr"],
-            width=230,
+            values=["ENV (Envolvente Crítica)"],
+            width=320,
             command=self._cambiar_combo
         )
         self.combo_combos.pack(side="left", padx=5)
@@ -339,9 +339,11 @@ class AppFuerzasGUI(ctk.CTk):
                 item = resultado_q.get_nowait()
                 if item[0] == "OK":
                     _, self.datos, self.modelo, self.info_modelo = item
+                    n_combos = len(self.info_modelo.get("combos", []))
                     self.lbl_estado.configure(
-                        text=f"✔ Análisis exitoso ({self.tipo_solver} | {len(self.modelo.nodes)} nodos | {len(self.modelo.members)} miembros)"
+                        text=f"✔ Análisis exitoso ({self.tipo_solver} | {len(self.modelo.nodes)} nodos | {len(self.modelo.members)} miembros | {n_combos} combos NSR-10)"
                     )
+                    self.combo_combos.configure(values=["ENV (Envolvente Crítica)"] + self.info_modelo["combos"])
                     self._actualizar_datos_y_tablas()
                     self._actualizar_canvas_3d()
                 else:
