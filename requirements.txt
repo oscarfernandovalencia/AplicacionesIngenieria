@@ -1,0 +1,29 @@
+# Dependencias para Suite de Aplicaciones de Ingeniería
+# AplicacionesIngenieria
+
+# Análisis Matemático, Matricial y Numérico
+numpy>=1.24.0
+scipy>=1.10.0
+pandas>=2.0.0
+
+# Lectura y Escritura de Archivos de Hoja de Cálculo (.ods y .xlsx)
+odfpy>=1.4.1
+openpyxl>=3.1.0
+
+# Análisis Estructural por Elementos Finitos 3D (FEA)
+PyNiteFEA>=1.0.0
+
+# Visualización y Gráficos (2D y 3D)
+matplotlib>=3.7.0
+plotly>=5.15.0
+
+# Interfaces Gráficas de Usuario (GUI)
+customtkinter>=5.2.0
+pillow>=10.0.0
+
+# Formato y Salida en Terminal (CLI)
+tabulate>=0.9.0
+rich>=13.0.0
+
+# Descarga y Reproducción de Videos Educativos (Herramienta Externa)
+yt-dlp>=2024.0.0

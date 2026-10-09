@@ -1,0 +1,17 @@
+# Entornos virtuales locales
+venv/
+.venv/
+env/
+
+# Byte-compiled / optimizados
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Archivos de bloqueo de LibreOffice / Excel
+.~lock.*.ods#
+.~lock.*.xlsx#
+
+# Logs y temporales
+*.log
+.DS_Store
